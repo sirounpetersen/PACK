@@ -1,0 +1,34 @@
+.header {
+  background-color: green;
+}
+
+.background {
+  background-color: skyblue;
+}
+
+.div-centered-text {
+  color:white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  background:black;
+  color: white;
+  font-family: sans-serif;
+  height: 40px;
+  margin-top: -.8%;
+}
+
+.navbar-text {
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.home-background-image {
+  background: url(Images/Stock Image 2.jpg) no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+}
