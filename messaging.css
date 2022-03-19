@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+/*   margin: 0; */
+}
+.section {
+  background-color:#7457F7;
+  padding: 50px 50px;
+  text-align: center;
+  color: white;
+  margin-top: -16px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+}
+.text_container{
+  text-align: right;
+  padding: 300px;
+}
+
+/* .text_container .type {
+  color: black;
+  font-size: 50px;
+} */

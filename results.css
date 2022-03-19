@@ -2,7 +2,17 @@ body{
 margin-top:none;
 background-color: #eee;
 }
-
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 .search-result-categories>li>a {
     color: #b6b6b6;
     font-weight: 400
@@ -18,7 +28,7 @@ background-color: #eee;
 }
 
 .search-result-categories>li>a>.badge {
-    float: right
+    float: right;
 }
 
 .search-results-count {
@@ -27,8 +37,9 @@ background-color: #eee;
 
 .search-result-item {
     padding: 20px;
-    background-color: #fff;
-    border-radius: 4px
+    background-color: #FEFBEA;
+    border-radius: 4px;
+    color: black;
 }
 
 .search-result-item:after,
@@ -69,12 +80,12 @@ background-color: #eee;
 
 .search-result-item .info {
     margin-top: 2px;
-    font-size: 12px;
-    color: #999
+    font-size: 20px;
+    color: black;
 }
 
 .search-result-item .description {
-    font-size: 13px
+    font-size: 20px
 }
 
 .search-result-item+.search-result-item {
@@ -92,7 +103,7 @@ background-color: #eee;
 }
 
 .search-result-item-heading>a {
-    color: #555
+    color: black;
 }
 
 @media (min-width:768px) {

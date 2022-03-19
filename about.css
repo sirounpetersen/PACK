@@ -1,10 +1,14 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-/*   margin: 0; */
+  font-family: monospace;
 }
+
+
 .about_section {
   background-color:#7457F7;
-  padding: 50px;
+  margin-top: -13px;
+  margin-left: -10px;
+  margin-right: -8px;
+  padding: 40px;
   text-align: center;
   color: white;
 }
@@ -12,11 +16,11 @@ body {
 h2 {
   text-align: center;
   font-size: 50px;
-  color: gray;
+  color: #FCD226;
 }
 
 h3 {
-  color: gray;
+  color: white;
   font-size: 20px;
   text-align: center;
 }
@@ -38,8 +42,232 @@ h3 {
   color: grey;
 }
 
-p {
+p1 {
   text-align: center;
   color: grey;
+  font-size: 35px;
+}
+/* 
+.about_section {
+  background-color:##7457F7;
+  padding: 50px 50px;
+  text-align: center;
+  color: white;
+  margin-top: -16px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+p{
+  text-align:center;
+  color: #FCD226;
+}
+
+h2 {
+  margin-top: -15px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+h3 {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-top: -9px;
+  margin-bottom: 16px;
+  padding: 0 8 px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0.2);
+  margin: 8px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  color: grey;
+}
+
+p1 {
+  text-align: center;
+  color: #FCD226;
+  font-size: 50px;
+}
+
+
+/** Header  **/
+.header {
+  background-color: #7457F7;
+}
+
+.header-text {
+  font-size: 25px;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+
+.div-centered-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+
+
+.about-header-text {
+  color: black;
+  text-align: center;
+}
+
+.opening-centered-text {
+  background-color: black;
+  color: white;
+  margin: -16px -10px -1px;
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.story-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: text-top;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.description-floating-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  background:#33266e;
+  color: white;
+  font-family: monospace;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px; 
+  padding: 25px 20px
+  
+}
+
+.navbar-text {
+  color:#FCD226;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+/** Home Image **/
+
+.home-background-image {
+  background-image: url(Images/Main Image.jpg) no-repeat center;
+  background-size: cover;
+  border-style: rounded;
+  border: 8px solid black;
+  height: 450px;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/** Three Boxes **/
+
+.item-drop-menu {
+  font-family: monospace;
+  text-align:center;
+  float-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.donation-drop-menu {
+  font-family: monospace;
+  text-align:center;
+  float-right: 30px;
+  padding-bottom: 5px;
+}
+
+.zipcode-box {
+  border: 1px black;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  font-family: monospace;
+  padding-bottom: 5px;
+
+/*   padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%; */
+  }
+
+.zipcode-text {
+  border: black;
+  color: black;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.search-button {
+  border: none;
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  }
+
+.statement-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
   font-size: 15px;
 }
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+  border-style: rounded;
+  border: 8px solid black;
+  color: black;
+}
+
+.contact-box {
+  border: 1px black;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  font-family: monospace;
+  padding-bottom: 5px;
+}
+
+.contact-field-text {
+  border: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  display: block;
+  } */
