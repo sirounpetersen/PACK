@@ -25,3 +25,14 @@ body {
   color: black;
   font-size: 50px;
 } */
+
+box-container {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+left-messages {
+  float: right;
+}

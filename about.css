@@ -8,15 +8,16 @@ body {
   margin-top: -13px;
   margin-left: -10px;
   margin-right: -8px;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   color: white;
 }
 
-h2 {
+.title-text {
   text-align: center;
   font-size: 50px;
   color: #FCD226;
+  margin-top: -10px;
 }
 
 h3 {
@@ -35,6 +36,7 @@ h3 {
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0,0.2);
   margin: 8px;
+  padding: 50px;
 }
 
 .title {
@@ -47,6 +49,16 @@ p1 {
   color: grey;
   font-size: 35px;
 }
+
+p3 {
+  p1 {
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+}
+}
+
+
 /* 
 .about_section {
   background-color:##7457F7;
@@ -88,6 +100,7 @@ h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0,0.2);
   margin: 8px;
   position: relative;
+  padding: 
 }
 
 .title {
