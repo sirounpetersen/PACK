@@ -3,7 +3,7 @@ body {
 /*   margin: 0; */
 }
 .section {
-  background-color:#7457F7;
+  background-color:#d0a9e5;
   padding: 50px 50px;
   text-align: center;
   color: white;
@@ -35,4 +35,43 @@ box-container {
 
 left-messages {
   float: right;
+}
+
+.messages-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -350px;
+  display: block;
+  width: 70%;
+}
+
+.green-message-1 {
+  text-align: center;
+  position:absolute;
+  top: 36%;
+  left: 41%;
+  font-size: 18px;
+}
+.blue-message-1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 18px;
+}
+
+.green-message-2 {
+  text-align: center;
+  position: absolute;
+  top: 66%;
+  left: 39.5%;
+  font-size: 18px;
+}
+
+.blue-message-2 {
+  text-align: center;
+  position:absolute;
+  top: 77%;
+  left: 46%;
+  font-size: 18px;
 }
